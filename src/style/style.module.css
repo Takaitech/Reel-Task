@@ -91,8 +91,6 @@ header {
   height: 25px;
 }
 
-
-
 .reel {
   width: 100%;
   height:300px;
@@ -102,6 +100,7 @@ header {
 .reelContainer {
   width: 100%;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .reelName {
@@ -137,13 +136,16 @@ header {
 
 .reelImage {
   object-fit: cover;
-  height: 146px;
-  width: 146px;
+  height: 200px;
+  width: 200px;
   position: relative;
   top:100px;
   z-index: 1;
-  border: grey 10px solid;
-  outline: white solid px;
+  border: white 5px solid;
+  padding: 10px;
+}
+.reelImage:hover {
+
 }
 
 .reelList {

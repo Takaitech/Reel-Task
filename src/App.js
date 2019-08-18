@@ -1,5 +1,5 @@
 import React from 'react';
-import ReelList from './components/ReelList'
+import ReelList from './containers/ReelList'
 import Search from './components/Search'
 import FilterPanel from './components/FilterPanel'
 import styles from './style/style.module.css'
