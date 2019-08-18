@@ -1,10 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ReelList from './components/ReelList'
+import Search from './components/Search'
+import FilterPanel from './components/FilterPanel'
+import styles from './style/style.module.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.app}>
+      <header>
+        <FilterPanel />
+        <Search />
+      </header>
+      <main>
+        <ReelList />
+      </main>
     </div>
   );
 }
