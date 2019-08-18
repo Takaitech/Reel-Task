@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reel-task/static/css/main.b7de0822.chunk.css",
+    "main.js": "/reel-task/static/js/main.8a51af11.chunk.js",
+    "main.js.map": "/reel-task/static/js/main.8a51af11.chunk.js.map",
+    "runtime~main.js": "/reel-task/static/js/runtime~main.0ea86550.js",
+    "runtime~main.js.map": "/reel-task/static/js/runtime~main.0ea86550.js.map",
+    "static/js/2.a5d4d979.chunk.js": "/reel-task/static/js/2.a5d4d979.chunk.js",
+    "static/js/2.a5d4d979.chunk.js.map": "/reel-task/static/js/2.a5d4d979.chunk.js.map",
+    "index.html": "/reel-task/index.html",
+    "precache-manifest.ee19dddb72756621d3ec7349fa04e173.js": "/reel-task/precache-manifest.ee19dddb72756621d3ec7349fa04e173.js",
+    "service-worker.js": "/reel-task/service-worker.js",
+    "static/css/main.b7de0822.chunk.css.map": "/reel-task/static/css/main.b7de0822.chunk.css.map",
+    "static/media/style.module.css": "/reel-task/static/media/TOSTADA.f30f2619.ttf"
+  }
+}
