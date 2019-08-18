@@ -4,26 +4,26 @@ html, body {
   width: 100%;
 }
 
+
 @font-face {
-  font-family: TOSTADA;
-  src: url(fonts/TOSTADA.ttf);
-  src: 
-    url(fonts/TOSTADA.ttf) format('embedded-opentype'), /* IE6-IE8 */
-    url(fonts/TOSTADA.ttf) format('woff2'), /* Super Modern Browsers */
-    url(fonts/TOSTADA.ttf) format('woff'), /* Pretty Modern Browsers */
-    url(fonts/TOSTADA.ttf)  format('truetype'), /* Safari, Android, iOS */
-    url(fonts/TOSTADA.ttf) format('svg'); /* Legacy iOS */
-  
+  font-family: 'TOSTADA';
+  src: url('webfontkits/tostada-webfont.woff2') format('woff2'),
+       url('webfontkits/tostada-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
+
+
+
+
 @font-face {
-  font-family: Neou-Bold;
-  src: url(fonts/Neou-Bold.ttf);
-  src: 
-    url(fonts/Neou-Bold.ttf) format('embedded-opentype'), /* IE6-IE8 */
-    url(fonts/Neou-Bold.ttf) format('woff2'), /* Super Modern Browsers */
-    url(fonts/Neou-Bold.ttf) format('woff'), /* Pretty Modern Browsers */
-    url(fonts/Neou-Bold.ttf)  format('truetype'), /* Safari, Android, iOS */
-    url(fonts/Neou-Bold.ttf) format('svg'); /* Legacy iOS */
+  font-family: 'Neou-Bold';
+  src: url('webfontkits/neou-bold-webfont.woff2') format('woff2'),
+       url('webfontkits/neou-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 body {
