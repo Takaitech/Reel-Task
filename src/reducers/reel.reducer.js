@@ -9,7 +9,7 @@ let initialState = [
 ]
 
 
-const reelReducer = (state = initialState, action) => {
+const reels = (state = initialState, action) => {
     switch(action.type) {
         case "TOGGLE_REEL_PAUSE":
             return state.map(reel => {
@@ -23,4 +23,4 @@ const reelReducer = (state = initialState, action) => {
     }
 }
 
-export default reelReducer
+export default reels

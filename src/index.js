@@ -5,9 +5,9 @@ import { Provider } from 'react-redux'
 import './style/style.module.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import reelReducer from './reducers/reelReducer';
+import rootReducer from './reducers';
 
-const store = createStore(reelReducer)
+const store = createStore(rootReducer)
 
 ReactDOM.render(
     <Provider store={store}>

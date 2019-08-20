@@ -7,20 +7,13 @@ import styles from '../style/style.module.css'
 
 
  class ReelList extends React.Component {
-    render(props) {
-        console.log(this.props)
+    render() {
         return(
             <ul className={styles.reelList}>
                 {this.props.reels.map((reel, index) => (
-                    <Reel 
-                        key={index} 
-                        brand={reel.brand} 
-                        name={reel.name} 
-                        paused={reel.paused} 
-                        percentSaved={reel.percentSaved} 
-                        total={reel.total} 
-                        url={reel.url}
-                        toggleReelPause={this.props.toggleReelPause}  
+                    <Reel key={index} brand={reel.brand} name={reel.name} paused={reel.paused} 
+                        percentSaved={reel.percentSaved} total={reel.total} url={reel.url}
+                        toggleReelPause={this.props.toggleReelPause} 
                     />
                 ))}
             </ul>
@@ -29,7 +22,7 @@ import styles from '../style/style.module.css'
 }
 
 const mapStateToProps = state => ({
-    reels: state
+    reels: state.reels
 })
 
 const mapDispatchToProps = dispatch => ({

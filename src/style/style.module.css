@@ -34,6 +34,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color:#F4F4F4; 
+  
 
 }
 
@@ -43,22 +44,20 @@ body {
   height: 100%;
 }
 
-header {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  height: 100px;
-  margin-top: 25px;
+
+ul {
+  padding: 0;
 }
 
+
 .searchBar {
-  margin-bottom: 100px;
-  width: 50%;
-  flex: 2;
+  height: 100px;
+  width: 80%;
+  margin: 25px auto 100px auto;
 }
 
 .searchInput {
+  font-size: 25px;
   border: none;
   border-bottom: 1px solid black;
   background: none;
@@ -75,32 +74,102 @@ header {
   
 }
 
-.filterPanel {
-  display:none;
+.dropInPanelContainer {
+  position: fixed;
+  bottom: -220px;
+  width: 100%;
+  z-index: 1 ;
+  font-family: 'Neou-Bold';
+  background-color: #E0E0E0;
+  text-align: center;
+  letter-spacing: 10px;
+  transition: all, 0.5s;
+
+}
+
+.sortRow1 {
+  width: 100%;
+  background-color:  rgb(214, 214, 214);
+
+}
+
+.sortRow2 {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.filterRow {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filterButton {
+  text-align: center;
+  font-size: 17px;
+  width: 45%;
+  background-color: transparent;
+  border: none;
+  
+}
+
+.sortIcon {
+  height: 40px;
+}
+
+.sortButton {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.1em;
+  padding: 5px 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.dropInPanel {
+  width: 100%;
+  height: 200px;
+  padding-top: 20px;
 }
 
 .filterPanelContainer{
-
+  z-index: 99;
   text-align: left;
   flex:1;
 }
 
-.toggleFilterPanel {
-  background-color: black;
-  width: 25px;
-  height: 25px;
+.toggleDropIn {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 100px;
+  background-image: url(/icons/Menu-Icon.png);
+  background-size: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  outline:none;
 }
+
+
 
 .reel {
   width: 100%;
-  height:300px;
+  height:400px;
   position: relative;
   background: black;
 }
 .reelContainer {
   width: 100%;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
+
 }
 
 .reelName {
@@ -117,12 +186,12 @@ header {
   font-family: TOSTADA;
   color: #f4f4f4;
   font-size: 50px;
-  top:25px;
+  top:20px;
   z-index: 1;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
-  padding-left: 10px;
+  text-indent: 20px;
 }
 
 .totalPaid {
@@ -136,16 +205,13 @@ header {
 
 .reelImage {
   object-fit: cover;
-  height: 200px;
-  width: 200px;
+  height: 146px;
+  width: 146px;
   position: relative;
   top:100px;
   z-index: 1;
-  border: white 5px solid;
-  padding: 10px;
-}
-.reelImage:hover {
-
+  border: grey 10px solid;
+  outline: white solid px;
 }
 
 .reelList {
@@ -161,3 +227,19 @@ header {
   width: 100%;
   
 }
+
+
+@media (min-width:600px)  {
+  .reel {
+  }
+
+  .reelList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .reelContainer {
+    width: 45%;
+  }
+ }
