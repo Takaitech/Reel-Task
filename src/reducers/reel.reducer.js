@@ -1,11 +1,11 @@
 let initialState = [
-    {brand: 'ACNE', name: 'Bryz Velcro-strap suede trainers', paused: false, percentSaved : '30', total: '3000', url: './images/Acne-placeholder.jpg'},
-    {brand: 'GUCCI', name: 'GG Marmont mini quilted-leather cross-body bag', paused: false, percentSaved : '50', total: '3000', url: './images/Acne-placeholder.jpg'},
-    {brand: 'LOEWE ', name: 'Animal alphabet-print silk scarf', paused: false, percentSaved : '40', total: '3000', url: './images/Acne-placeholder.jpg'},
-    {brand: 'FENDI', name: 'Mon Tresor perforated-logo leather bucket bag', paused: false, percentSaved : '25', total: '3000', url: './images/Acne-placeholder.jpg'},
-    {brand: 'ALBUS LUMEN ', name: 'Safi striped single-breasted blazer', paused: false, percentSaved : '100', total: '3000', url: './images/Acne-placeholder.jpg'},
-    {brand: 'VETEMENTS ', name: 'Embroidered-logo denim cap', paused: false, percentSaved : '50', total: '3000', url: './images/Acne-placeholder.jpg'},
-    {brand: 'ROKSANDA ', name: 'Aulna floral-print silk-satin blouse', paused: false, percentSaved : '80', total: '3000', url:'./images/Acne-placeholder.jpg'}
+    {brand: 'ACNE', name: 'Bryz Velcro-strap suede trainers', paused: false, percentSaved : 30, total: 3000, url: './images/Acne-placeholder.jpg'},
+    {brand: 'GUCCI', name: 'GG Marmont mini quilted-leather cross-body bag', paused: false, percentSaved : 50, total: 200, url: './images/Acne-placeholder.jpg'},
+    {brand: 'LOEWE ', name: 'Animal alphabet-print silk scarf', paused: false, percentSaved : 40, total: 250, url: './images/Acne-placeholder.jpg'},
+    {brand: 'FENDI', name: 'Mon Tresor perforated-logo leather bucket bag', paused: false, percentSaved : 25, total: 500, url: './images/Acne-placeholder.jpg'},
+    {brand: 'ALBUS LUMEN ', name: 'Safi striped single-breasted blazer', paused: false, percentSaved : 100, total: 1000, url: './images/Acne-placeholder.jpg'},
+    {brand: 'VETEMENTS ', name: 'Embroidered-logo denim cap', paused: false, percentSaved : 50, total: 1500, url: './images/Acne-placeholder.jpg'},
+    {brand: 'ROKSANDA ', name: 'Aulna floral-print silk-satin blouse', paused: false, percentSaved : 80, total: 3000, url:'./images/Acne-placeholder.jpg'}
 ]
 
 

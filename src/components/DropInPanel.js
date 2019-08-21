@@ -19,14 +19,14 @@ const DropInPanel = ({ sortType, direction, updateSortType, updateSortDirection,
                     <input className={styles.sortIcon} type='image' id='HIGH-LOW'  src='/icons/High-Low-Icon.png' onClick={(e => updateSortDirection(e.target.id))}></input>
                     <ul>
                         <input className={styles.sortButton}  type='button' defaultValue='$ PRICE' id='TOTAL' onClick={(e) => updateSortType(e.target.id)}></input>
-                            <input className={styles.sortButton} type='button' defaultValue='% PAID' id='PERCENT_PAID' onClick={(e) => updateSortType(e.target.id)}></input>
+                            <input className={styles.sortButton} type='button' defaultValue='% SAVED' id='PERCENT_SAVED' onClick={(e) => updateSortType(e.target.id)}></input>
                     </ul>
                     <input className={styles.sortIcon} type='image' id='LOW-HIGH' src='/icons/Low-High-Icon.png' onClick={(e => updateSortDirection(e.target.id))}></input>
                 </div>
                 <ul className={styles.filterRow}>
-                    <input className={styles.filterButton} defaultValue='ACTIVE' onClick={(e) => updateFilter(e.target.value)}></input>
-                    <input className={styles.filterButton} defaultValue='ALL' onClick={(e) => updateFilter(e.target.value)}></input>
-                    <input className={styles.filterButton} defaultValue='PAUSED' onClick={(e) => updateFilter(e.target.value)}></input>
+                    <input className={styles.filterButton} type='button' defaultValue='ACTIVE' onClick={(e) => updateFilter(e.target.value)}></input>
+                    <input className={styles.filterButton} type='button' defaultValue='ALL' onClick={(e) => updateFilter(e.target.value)}></input>
+                    <input className={styles.filterButton} type='button' defaultValue='PAUSED' onClick={(e) => updateFilter(e.target.value)}></input>
                 </ul>
             </div>
         </div>

@@ -17,3 +17,8 @@ export const updateFilter = filter => ({
     type: 'UPDATE_FILTER',
     filter
 })
+
+export const updateSearchQuery = query => ({
+    type: 'UPDATE_SEARCH_QUERY',
+    query
+})
