@@ -1,5 +1,7 @@
 import React from 'react'
 import { usePalette } from 'react-palette'
+import { CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 import styles from '../style/style.module.css'
 
 

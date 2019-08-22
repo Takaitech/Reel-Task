@@ -186,11 +186,12 @@ ul {
 }
 .reelContainer {
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 55px;
 
 }
 
 .reelBrandName {
+  text-align: left;
   margin: 0 0 10px 0;
 }
 
@@ -201,7 +202,7 @@ ul {
   color:black;
   margin:0;
   z-index: 1;
-  text-align: center;
+  text-align: left;
   margin-bottom: 10px;
 }
 
@@ -242,13 +243,13 @@ ul {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  padding-bottom: 50px;
 }
 
 .progress {
   position: absolute;
   bottom:0;
   width: 100%;
+  transition: 0.9s;
 }
 
 
