@@ -5,7 +5,12 @@ import { updateSearchQuery } from '../actions/reel.actions'
 
 class Search extends React.Component {
 
+
+    
+
+
 render() {
+  
     return(
         <form className={styles.searchBar}>
             <input className={styles.searchInput} type='text' onChange={(e) => this.props.updateSearchQuery(e.target.value)}>

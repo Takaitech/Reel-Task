@@ -11,7 +11,7 @@ class Sort extends React.Component{
     render(props){
         return(
             <div>
-                <DropInPanel sortType={this.props.sortType} direction={this.props.direction} 
+                <DropInPanel sortType={this.props.sortType} direction={this.props.direction} filter={this.props.filter}
                 updateSortDirection={this.props.updateSortDirection} updateSortType={this.props.updateSortType}
                 updateFilter={this.props.updateFilter} />
             </div>
@@ -20,11 +20,10 @@ class Sort extends React.Component{
 }
 
 
-
-
 const mapStateToProps = state => ({
     sortType: state.sort.type,
-    direction: state.sort.direction
+    direction: state.sort.direction,
+    filter: state.filter
 })
 
 const mapDispatchToProps = dispatch => ({
