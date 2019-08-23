@@ -14,10 +14,10 @@ I made use of a node package that I sent the product image to and received back 
 
 ## Tech
 
-HTML 
-CSS (VANILLA)
-JAVASCRIPT
-REACT
-REDUX
+- HTML 
+- CSS (VANILLA)
+- JAVASCRIPT
+- REACT
+- REDUX
 
 
