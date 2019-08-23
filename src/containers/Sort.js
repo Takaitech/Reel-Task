@@ -1,11 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { connect } from 'react-redux'
 import DropInPanel from '../components/DropInPanel'
 import { updateSortType } from '../actions/reel.actions'
 import { updateSortDirection } from '../actions/reel.actions'
 import { updateFilter} from '../actions/reel.actions'
-
-import styles from '../style/style.module.css'
 
 class Sort extends React.Component{
     render(props){

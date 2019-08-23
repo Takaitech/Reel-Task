@@ -12,8 +12,8 @@ const sort = (state = {type: 'ALPHABETICAL', direction: 'LOW-HIGH'}, action) => 
                 ...state,
                 direction: action.direction
             }
+            default: return state
     }
-    return state
 }
 
 

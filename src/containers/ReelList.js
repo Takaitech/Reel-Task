@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Reel from '../components/Reel'
 import {connect} from 'react-redux'
 import { toggleReelPause } from '../actions/reel.actions'

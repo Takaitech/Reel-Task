@@ -1,7 +1,5 @@
 import React from 'react'
 import { usePalette } from 'react-palette'
-import { CircularProgressbar } from 'react-circular-progressbar';
-import 'react-circular-progressbar/dist/styles.css';
 import styles from '../style/style.module.css'
 
 
@@ -25,12 +23,12 @@ const Reel = ({brand, name, paused, percentSaved, total, url, toggleReelPause}) 
             <div className={styles.reel}>
                 <span className={styles.reelPercent} >{percentSaved}%</span>
                 <div className={styles.reelImageOverlay}></div>
-                <img onClick={() => handleReelPause(name)} className={styles.reelImage} style={{border: `10px solid ${data.vibrant}` }} src={url}></img>
+                <img onClick={() => handleReelPause(name)} className={styles.reelImage} style={{border: `10px solid ${data.vibrant}` }} src={url} alt='Reel item'></img>
                 <div className={styles.progress} style={{height: `${percentSaved}%`, backgroundColor: data.vibrant, opacity: paused ? '0.3' : `1` }}>
             </div>
             </div>
             <span className={styles.totalPaid} >{paused ? 'Paused' :`STATUS:$${amountPaid(total,percentSaved)}/$${total}`}</span>
-            <img className={styles.statusIcon} src={paused ? 'icons/Pause-Icon.png': 'icons/Play-Icon.png' }></img>
+            <img className={styles.statusIcon} src={paused ? 'icons/Pause-Icon.png': 'icons/Play-Icon.png' } alt='Reel status icon'></img>
         </div>
     )
 }
