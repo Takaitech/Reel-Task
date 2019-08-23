@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reel-task/static/css/main.713bd9c2.chunk.css",
+    "main.css": "/reel-task/static/css/main.23af0fd5.chunk.css",
     "main.js": "/reel-task/static/js/main.9ee57316.chunk.js",
     "main.js.map": "/reel-task/static/js/main.9ee57316.chunk.js.map",
     "runtime~main.js": "/reel-task/static/js/runtime~main.0ea86550.js",
@@ -8,9 +8,9 @@
     "static/js/2.bd2aafa5.chunk.js": "/reel-task/static/js/2.bd2aafa5.chunk.js",
     "static/js/2.bd2aafa5.chunk.js.map": "/reel-task/static/js/2.bd2aafa5.chunk.js.map",
     "index.html": "/reel-task/index.html",
-    "precache-manifest.241f4cddc911d1926772cff2167ad818.js": "/reel-task/precache-manifest.241f4cddc911d1926772cff2167ad818.js",
+    "precache-manifest.7724b955b2873bb3e8694140ff5b35b5.js": "/reel-task/precache-manifest.7724b955b2873bb3e8694140ff5b35b5.js",
     "service-worker.js": "/reel-task/service-worker.js",
-    "static/css/main.713bd9c2.chunk.css.map": "/reel-task/static/css/main.713bd9c2.chunk.css.map",
+    "static/css/main.23af0fd5.chunk.css.map": "/reel-task/static/css/main.23af0fd5.chunk.css.map",
     "static/media/style.module.css": "/reel-task/static/media/tostada-webfont.dfc71ac6.woff2"
   }
 }
