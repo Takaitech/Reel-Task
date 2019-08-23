@@ -17,12 +17,12 @@ class ReelList extends React.Component {
                     return reels.sort((a, b) => (a.percentSaved > b.percentSaved ) ? 1 : -1)
                     
                 default: return reels
-
             }
         }
+
         return(
             <ul className={styles.reelList}>
-                {this.props.direction === 'LOW-HIGH' ? sortedReels(this.props.reels, this.props.sortType).map((reel, index) => (
+                {this.props.direction === 'LOW-HIGH' || this.props.sortType === 'ALPHABETICAL'  ? sortedReels(this.props.reels, this.props.sortType).map((reel, index) => (
                     <Reel key={index} brand={reel.brand} name={reel.name} paused={reel.paused} 
                         percentSaved={reel.percentSaved} total={reel.total} url={reel.url}
                         toggleReelPause={this.props.toggleReelPause} 
@@ -33,10 +33,7 @@ class ReelList extends React.Component {
                         percentSaved={reel.percentSaved} total={reel.total} url={reel.url}
                         toggleReelPause={this.props.toggleReelPause} 
                     />
-                ))
-                }
-
-                
+                ))}
             </ul>
         )
     }

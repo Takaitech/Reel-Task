@@ -41,11 +41,12 @@ ul {
   padding: 0;
 }
 
+
 /* Search */
 .searchBar {
   height: 100px;
   width: 80%;
-  margin: 15px auto 15px auto;
+  margin: 15px auto 10px auto;
 }
 
 .searchInput {
@@ -69,6 +70,8 @@ ul {
   color:black
 }
 
+
+/* Reels */
 .reel {
   width: 100%;
   height:300px;
@@ -114,7 +117,6 @@ ul {
   letter-spacing: 6px;
   font-size: 13px;
   z-index: 1;
-
 }
 
 .reelImage {
@@ -127,10 +129,6 @@ ul {
   box-shadow: 3px 10px 14px rgba(31,31,31,0.3);
 }
 
-.reelImage:hover{
-  transform: scale(1.1);
-  transition: 0.8s;
-}
 
 .statusIcon {
   display: block;
@@ -153,9 +151,9 @@ ul {
   width: 100%;
 }
 
+
+
 /* Drop In Panel */
-
-
 .dropInPanelContainerclosed {
   position: fixed;
   bottom: -220px;
@@ -178,7 +176,6 @@ ul {
   text-align: center;
   letter-spacing: 10px;
   transition: all, 0.5s;
-
 }
 
 .sortTitle {
@@ -188,6 +185,7 @@ ul {
   margin:0 auto;
   padding: 10px 0;
 }
+
 .sortRow1 {
   width: 100%;
 }
@@ -258,8 +256,8 @@ ul {
 .toggleDropIn {
   background-color: #f4f4f4;
   width: 100%;
-  height: 40px;
-  background-image: url('reel-task/icons/Menu-Icon.png');
+  height: 35px;
+  background-image: url('/reel-task/icons/Menu-Icon.png');
   background-size:7%;
   background-position: center;
   background-repeat: no-repeat;
@@ -268,17 +266,17 @@ ul {
 }
 
 
-
+/* Larger Devices */
 @media (min-width:600px)  {
 
   .searchBar {
     width: 68.2%;
     margin-top: 90px;
   }
+
   .reelContainer {
     margin-bottom: 60px;
   }
-
 
   .reelList {
     margin-top: 50px;
@@ -291,6 +289,7 @@ ul {
   .reelContainer {
     width: 35%;
   }
+
   .toggleDropIn {
     position: relative;
     top: 260px;
@@ -309,11 +308,10 @@ ul {
   .filterTitle {
     margin-top: 10px;
   }
+
   .filterRow {
     margin-top: px;
     width: 67%;
-  }
-  .dropInPanel {
   }
 
   .dropInPanelContainerclosed {
@@ -322,14 +320,18 @@ ul {
       width: 68.3%;
       left: 50%;
       transform: translate(-50%, 0);
-
   }
+
   .dropInPanelContaineropen{
     top: -40px;
     left: 50%;  
     width: 68.3%;
     bottom:unset;
-
     transform: translate(-50%, 0);
+  }
+
+  .reelImage:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+  }
 }
- }
