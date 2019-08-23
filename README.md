@@ -1,4 +1,7 @@
-# Reel Browser
+# Reel Browser Feature
+
+## Live Site
+   https://takaitech.github.io/reel-task/
 
 ## Approach
 
